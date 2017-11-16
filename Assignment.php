@@ -1,7 +1,8 @@
 <?php
 	include('subject_fetch.php');
 	$row_count = mysqli_num_rows($result);
-		
+	$afzal={"4","afzal",2};
+	echo $afzal;		
 ?>
 <!DOCTYPE html>
 <html>
@@ -11,7 +12,7 @@
 	<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
 	<script>tinymce.init({ selector:'textarea' });</script>
 </head>
-<body>
+<body>Jaan meri
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12" style="background-color: yellow;text-align: center;">

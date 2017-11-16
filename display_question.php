@@ -31,7 +31,7 @@
 	</div>
 	<br><br><br>
 	<div class="container">
-		<?php for($i=$row_count-1;$i>0;$i--){
+		<?php for($i=1;$i<$row_count;$i++){
 						$data = mysqli_fetch_array($result);
 		?>
 		<div class="row">
